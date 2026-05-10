@@ -4,10 +4,7 @@
       "DownstreamPathTemplate": "/api/Account/register",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "identityapi",
-          "Port": 7001
-        }
+        { "Host": "identityapi",  "Port": 7001 }
       ],
       "UpstreamPathTemplate": "/api/account/register",
       "UpstreamHttpMethod": [ "Post" ]
@@ -16,10 +13,7 @@
       "DownstreamPathTemplate": "/api/Account/login",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "identityapi",
-          "Port": 7001
-        }
+        { "Host": "identityapi",  "Port": 7001 }
       ],
       "UpstreamPathTemplate": "/api/account/login",
       "UpstreamHttpMethod": [ "Post" ]
@@ -28,10 +22,7 @@
       "DownstreamPathTemplate": "/api/Account/user",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "identityapi",
-          "Port": 7001
-        }
+        { "Host": "identityapi",  "Port": 7001 }
       ],
       "UpstreamPathTemplate": "/api/account/user",
       "UpstreamHttpMethod": [ "Get" ]
@@ -40,10 +31,7 @@
       "DownstreamPathTemplate": "/api/Purchases/",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "purchasesapi",
-          "Port": 7002
-        }
+        { "Host": "purchasesapi",  "Port": 7002 }
       ],
       "UpstreamPathTemplate": "/api/purchases/",
       "UpstreamHttpMethod": [ "Get" ]
@@ -52,10 +40,7 @@
       "DownstreamPathTemplate": "/api/Purchases/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "purchasesapi",
-          "Port": 7002
-        }
+        { "Host": "purchasesapi",  "Port": 7002 }
       ],
       "UpstreamPathTemplate": "/api/purchases/{id}",
       "UpstreamHttpMethod": [ "Get" ]
@@ -64,10 +49,7 @@
       "DownstreamPathTemplate": "/api/Purchases/add",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "purchasesapi",
-          "Port": 7002
-        }
+        { "Host": "purchasesapi",  "Port": 7002 }
       ],
       "UpstreamPathTemplate": "/api/purchases/add",
       "UpstreamHttpMethod": [ "Post" ]
@@ -76,10 +58,7 @@
       "DownstreamPathTemplate": "/api/Purchases/update",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "purchasesapi",
-          "Port": 7002
-        }
+        { "Host": "purchasesapi",  "Port": 7002 }
       ],
       "UpstreamPathTemplate": "/api/purchases/update",
       "UpstreamHttpMethod": [ "Put" ]
@@ -88,10 +67,7 @@
       "DownstreamPathTemplate": "/api/Shops/",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "shopsapi",
-          "Port": 7003
-        }
+        { "Host": "shopsapi",  "Port": 7003 }
       ],
       "UpstreamPathTemplate": "/api/shops/",
       "UpstreamHttpMethod": [ "Get" ]
@@ -100,10 +76,7 @@
       "DownstreamPathTemplate": "/api/Shops/{shopId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "shopsapi",
-          "Port": 7003
-        }
+        { "Host": "shopsapi",  "Port": 7003 }
       ],
       "UpstreamPathTemplate": "/api/shops/{shopId}",
       "UpstreamHttpMethod": [ "Get" ]
@@ -112,10 +85,7 @@
       "DownstreamPathTemplate": "/api/Shops/{shopId}/find_by_category",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "shopsapi",
-          "Port": 7003
-        }
+        { "Host": "shopsapi",  "Port": 7003 }
       ],
       "UpstreamPathTemplate": "/api/shops/{shopId}/find_by_category",
       "UpstreamHttpMethod": [ "Post" ]
@@ -124,10 +94,7 @@
       "DownstreamPathTemplate": "/api/Shops/{shopId}/order",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "shopsapi",
-          "Port": 7003
-        }
+        { "Host": "shopsapi",  "Port": 7003 }
       ],
       "UpstreamPathTemplate": "/api/shops/{shopId}/order",
       "UpstreamHttpMethod": [ "Post" ]
@@ -136,10 +103,7 @@
       "DownstreamPathTemplate": "/api/Factories/",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "factoriesapi",
-          "Port": 7004
-        }
+        { "Host": "factoriesapi",  "Port": 7004 }
       ],
       "UpstreamPathTemplate": "/api/factories/",
       "UpstreamHttpMethod": [ "Get" ]
@@ -148,10 +112,7 @@
       "DownstreamPathTemplate": "/api/Factories/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "factoriesapi",
-          "Port": 7004
-        }
+        { "Host": "factoriesapi",  "Port": 7004 }
       ],
       "UpstreamPathTemplate": "/api/factories/{id}",
       "UpstreamHttpMethod": [ "Get" ]
@@ -160,10 +121,7 @@
       "DownstreamPathTemplate": "/api/Files/",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "filesapi",
-          "Port": 7005
-        }
+        { "Host": "filesapi",  "Port": 7005 }
       ],
       "UpstreamPathTemplate": "/api/files/",
       "UpstreamHttpMethod": [ "Get" ]
@@ -172,10 +130,7 @@
       "DownstreamPathTemplate": "/api/Files/upload",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "filesapi",
-          "Port": 7005
-        }
+        { "Host": "filesapi",  "Port": 7005 }
       ],
       "UpstreamPathTemplate": "/api/files/upload",
       "UpstreamHttpMethod": [ "Post" ]
@@ -184,16 +139,19 @@
       "DownstreamPathTemplate": "/api/Files/{fileId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
-        {
-          "Host": "filesapi",
-          "Port": 7005
-        }
+        { "Host": "filesapi",  "Port": 7005 }
       ],
       "UpstreamPathTemplate": "/api/files/{fileId}",
       "UpstreamHttpMethod": [ "Get", "Delete" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5000"
+    "BaseUrl": "http://localhost:5000",
+    "LoadBalancerOptions": { "Type": "RoundRobin" },
+    "QoSOptions": {
+      "ExceptionsAllowedBeforeBreaking": 3,
+      "DurationOfBreak": 10000,
+      "TimeoutValue": 5000
+    }
   }
 }
