@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Ocelot.Provider.Polly;
 
 namespace VegasShop.ApiGateway
 {
@@ -18,7 +19,7 @@ namespace VegasShop.ApiGateway
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddOcelot();
+            services.AddOcelot().AddPolly();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
