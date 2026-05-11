@@ -169,6 +169,8 @@ services:
       - gateway
 
   apigateway:
+    volumes:
+      - ./VegasShop.ApiGateway/ocelot.json:/app/ocelot.json
     image: microlabb/apigateway
     build:
       context: .

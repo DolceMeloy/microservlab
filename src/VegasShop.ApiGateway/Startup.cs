@@ -19,7 +19,7 @@ namespace VegasShop.ApiGateway
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddOcelot().AddPolly();
+            services.AddOcelot(Configuration).AddPolly();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

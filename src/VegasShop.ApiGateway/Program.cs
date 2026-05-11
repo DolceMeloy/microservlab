@@ -17,7 +17,7 @@ namespace VegasShop.ApiGateway
                 {
                     webBuilder.UseUrls("http://*:5000")
                     .ConfigureAppConfiguration((host,config)=>
-                        config.AddJsonFile("ocelot.json"))
+                        config.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true))
                     .UseStartup<Startup>();
                 });
     }
